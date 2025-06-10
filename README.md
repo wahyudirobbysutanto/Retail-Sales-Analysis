@@ -1,3 +1,4 @@
+
 # 🛍️ Retail Sales Analysis (Superstore Dataset)
 
 This project explores and analyzes retail sales data from a fictional superstore using Python and AI-assisted tools (ChatGPT). The goal is to identify key sales trends, profitability drivers, and actionable business insights.
@@ -12,7 +13,8 @@ Retail-Sales-Analysis/
 ├── data/               # Raw dataset
 ├── notebooks/          # Jupyter notebooks for cleaning & analysis
 ├── visuals/            # Charts & visuals
-└── README.md           # Project overview
+├── README.md           # Project overview
+└── findings-presentation.pptx 
 ```
 
 ---
@@ -60,13 +62,31 @@ Retail-Sales-Analysis/
 
 ---
 
-## ✅ Results (to be updated)
+## ✅ Results
 
-Visualizations and insights will be shared as the project progresses. Check back for updates.
+### 📊 Sales by Region and Segment
+![](visuals/sales_by_region_segment.png)
+
+- West and East regions lead in total sales.
+- Consumer segment dominates across all regions.
+- Home Office segment is the weakest performer.
+
+### 📉 Profit vs Discount Rate
+![](visuals/profit_vs_discount.png)
+
+- Higher discount rates are clearly linked to lower average profit.
+- Profitability drops significantly after a 30% discount.
+- Company should review aggressive discount strategies.
+
+### 📆 Monthly Sales & Profit Trends
+![](visuals/monthly_sales_profit_trend.png)
+
+- Sales and profit vary significantly month to month, suggesting seasonality or promo cycles.  
+- Some high-sales months yield low profit, indicating potential over-discounting.  
+- This trend analysis helps in forecasting and planning better promotions.
 
 ---
 
 ## 📌 License
 
 This project is for educational and portfolio purposes. Data sourced from Kaggle (public dataset).
-"# Retail-Sales-Analysis" 
