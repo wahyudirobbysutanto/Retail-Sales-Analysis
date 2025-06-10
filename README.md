@@ -13,8 +13,7 @@ Retail-Sales-Analysis/
 ├── data/               # Raw dataset
 ├── notebooks/          # Jupyter notebooks for cleaning & analysis
 ├── visuals/            # Charts & visuals
-├── README.md           # Project overview
-└── findings-presentation.pptx 
+└── README.md           # Project overview
 ```
 
 ---
